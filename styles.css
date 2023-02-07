@@ -1,0 +1,97 @@
+body{
+    font-family: 'Courier New', Courier, monospace;
+   /* background-image: linear-gradient(to right, black, rgba(122, 113, 113, 0)); */
+    color: antiquewhite;
+    background-image: url("https://www.teahub.io/photos/full/313-3132029_linkedin-wallpaper-wallpapersafari-background-image-for-form-in.jpg");
+
+}
+
+.container{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(0, 0, 0, 0.8);
+    border-radius: 20px;
+    padding: 20px 20px;
+    margin-top: 200px;
+    font-size: 16px;
+
+
+}
+
+#description{
+    font-style: italic;
+}
+
+fieldset{
+    text-align: center;
+    border: 5px solid whitesmoke;
+    margin-bottom: 30px;
+    
+}
+
+input{
+    background: none;
+    border: none;
+    border-bottom: 1px solid whitesmoke;
+    outline: none;
+    font-size: 16px;
+    color: antiquewhite;
+    letter-spacing: 2px;
+    
+}
+
+#name, #email, #number{
+    width: 100%;
+    margin-top: 15px;
+    font-size: 16px;
+    
+}
+
+#language, #dropdown {
+    width: 50%;
+    height: 30px;
+    font-size: 16px;
+    cursor: pointer;
+
+} 
+
+#suggestion{
+    width: 100%;
+    letter-spacing: 1px;
+    font-size: 16px;
+
+}
+
+#submit{
+    width: 20%;
+    height: 30px;
+    font-size: 16px;
+    font-weight: bold;
+    margin-top: 15px;
+    border-radius: 10px;
+    text-align: center;
+    margin:auto;
+    display: block;
+    cursor: pointer;
+    background: antiquewhite;
+    font-family: 'Courier New', Courier, monospace;
+
+}
+
+#submit:hover{
+    background-color: gray;
+    opacity: 0.7;
+}
+
+
+
+
+
+    
+
+
+
+
+

@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Form</title>
+</head>
+
+<body>
+    <div class="container">
+
+        <fieldset> 
+
+            <header class="header">
+                <h1 id="title">
+                    Survey Form
+                    
+                </h1>
+                <p id="description">
+                    Thanks for answering. Your opinion is very important!
+                </p>
+                <p id="description">
+                    By Celio Carcalto
+                </p>
+            </header>
+
+         </fieldset>
+
+        <form id="survey-form">
+            <label for="name" id="name-label">
+                <input type="text" name="name" id="name" placeholder="Name" required>
+            </label>
+            <br><br>
+            <label for="email" id="email-label">
+                <input type="email" name="email" id="email" placeholder="Email" required>
+            </label>
+            <br><br>
+            <label for="number" id="number-label">
+                <input type="number" name="number" id="number" min="1" max="99" placeholder="Age (optional)">
+            </label>
+            
+            <p>What is your current position?</p>
+            <select name="occupation" id="dropdown" required>
+                <option disabled selected value="choice">choose an option</option>
+                <option name="student" value="student">Student</option>
+                <option value="teacher">Teacher</option>
+                <option value="others">Others</option>
+            </select>
+
+            <p>Do you think programming is important?</p>
+            <input type="radio" name="group1" value="yes" required> Yes
+            <input type="radio" name="group1" value="no" required> No
+            <input type="radio" name="group1" value="maybe" required> Maybe
+            
+
+            <p>What is your favorite programming language?</p>
+            <select name="language" id="language" required>
+                <option disabled selected value="choice">choose an option</option>
+                <option value="js">Javascript</option>
+                <option value="python">Pyhon</option>
+                <option value="others-language">Others</option>
+                
+            </select>
+
+            <p>What is your favorite area of ​​programming?</p>
+            <input type="checkbox" name="front" value="front" required> Front-End
+            <input type="checkbox" name="back" value="back" required> Back-End
+            <input type="checkbox" name="full" value="full" required> Full-Stack
+
+            <p>Any additional suggestions?</p>
+            <textarea name="suggestion" id="suggestion" cols="30" rows="10" placeholder="Enter your suggestion..."></textarea>
+
+            <br><br>
+
+            <button type="submit" id="submit">Submit</button>
+
+
+        </form>
+
+    </div>
+    
+
+</body>
+
+</html>
